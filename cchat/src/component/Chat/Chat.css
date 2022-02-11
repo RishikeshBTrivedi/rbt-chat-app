@@ -1,0 +1,105 @@
+.chatPage{
+    background-color: rgb(26,27,41);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+.chatContainer{
+    border: 5px solid #007575;
+    height: 60%;
+    width: 50%;
+}
+.header{
+    background-color: cyan;
+    color: rgb(26,27,41);
+    height:15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header > h2{
+    margin: 20px;
+}
+.header >a> img{
+    width: 20px;
+    height: auto;
+    margin: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header >a> img:hover{
+    transform: scale(1.5)
+}
+.chatBox{
+    border: 0.1vmax solid white;
+    height: 70%;
+    box-sizing: border-box;
+    /* overflow-y: auto; */
+}
+.inputBox{
+    border:0.2vmax solid white;
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+#chatInput{
+    width: 80%;
+    border: 2px solid cyan;
+    background-color:rgb(26,27,41);
+    color: cyan;
+    font-size: 25px;
+    padding: 2vmax;
+    font-weight: 700;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sendBtn{
+    background-color: cyan;
+    color:rgb(26,27,41);
+    width:20%;
+    border:none;
+    margin:5px;
+    font-size: 25px;
+    font-weight: 600;
+    transition : all 0.3s;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.sendBtn > img{
+    width: 3vmax;
+    color: rgb(26,27,41);
+    transition: all 0.3s
+}
+.sendBtn:hover{
+    background-color: rgb(4, 138, 138);
+}
+.sendBtn:hover img{
+    transform: translateX(10px);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    opacity: 0.3;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(26,27,41);
+    opacity: 0.3;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(13, 202, 202, 0.39);
+    opacity: 0.3;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(3, 255, 255, 0.171);
+    opacity: 0.3;
+  }

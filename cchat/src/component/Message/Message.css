@@ -1,0 +1,27 @@
+.messageBox{
+    background-color: rgb(40, 42, 68);
+    /* width:50%; */
+    padding: 1vmax;
+    margin: 1.8vmax;
+    border-radius: 10px;
+    display: inline-block;
+    clear: both;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 15px;
+    max-width: 70%;
+}
+.right{
+    /* This class will show messages on the right ie the messages that you send */
+    float: right;
+    background-color: rgb(40, 42, 68);
+    color: cyan;
+    
+}
+.left{
+    /* This class will show messages on the left ie the messages that you send */
+    float: left;
+    background-color: rgb(30, 80, 77);
+    color: cyan;
+    
+}

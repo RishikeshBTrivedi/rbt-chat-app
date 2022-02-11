@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/*Using media query to make the app responsive*/
+@media (max-aspect-ratio: 7/10){
+  .JoinPage{
+    background-color: rgb(26,27,41);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+    color: aqua;
+
+}
+  .JoinContainer{
+    width:100%;
+    margin-top: 30vw !important;
+  }
+  .JoinContainer > img{
+    width: 33vmax;
+    margin: 30px;
+}
+  .JoinContainer > h1{
+    text-align: center;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    font-size: 6vw;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    border-width: 33vmax;
+    margin-bottom: 20px;
+  }
+  #joinInput{
+    width :35vmax;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: black;
+    border: 5px solid white;
+    color: aqua;
+    font-size: 20px;
+    font-weight: 800;
+    margin:20px;
+}
+.joinButton{
+  color: black;
+  background-color: aqua;
+  border: 5px white;
+  font-size: 25px;
+  font-weight: 700;
+  padding:5px;
+  margin:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 33vmax;
+}
+.chatContainer{
+  border: 5px solid #007575;
+  height: 100% !important;
+  width: 100% !important;
+}
+.header{
+  background-color: cyan;
+  color: rgb(26,27,41);
+  height:10% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > h2{
+  margin: 20px;
+  font-size: 6vw;
+}
+.header >a> img{
+  width: 6vw !important;
+  height: auto;
+  margin: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.chatBox{
+  border: 0.1vmax solid white;
+  height: 80% !important;
+  box-sizing: border-box;
+  /* overflow-y: auto; */
+}
+.inputBox{
+  border:0.2vmax solid white;
+  height: 10% !important;
+  box-sizing: border-box;
+  display: flex;
+}
+.sendBtn{
+  background-color: cyan;
+  color:rgb(26,27,41);
+  width:20% !important;
+  border:none;
+  margin:10px !important;
+  font-size: 25px;
+  font-weight: 600;
+  transition : all 0.3s;
+  cursor: pointer;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.messageBox{
+  background-color: rgb(40, 42, 68);
+  /* width:70% !important; */
+  padding: 3vw !important;
+  margin: 1.8vmax;
+  border-radius: 20px !important;
+  display: inline-block !important;
+  clear: both;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-wrap: break-word;
+  font-size: 20px !important;
+  
+}
+}
